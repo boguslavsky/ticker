@@ -1,0 +1,11 @@
+{
+  "name": "ticker",
+  "homepage": "https://github.com/boguslavsky/ticker",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "highcharts": "^5.0.9"
+  }
+}

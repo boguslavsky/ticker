@@ -1,0 +1,108 @@
+body {
+    background-color: #272b37;
+    color: #fff;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.text-small {
+    font-size: 0.65em;
+}
+
+.code {
+    font-family: 'Droid Sans Mono', monospace;
+}
+
+.growth {
+    color: #5cb85c;
+}
+
+.drop {
+    color: #c9302c;
+}
+
+.app {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 12px 0 0;
+}
+
+.header .h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header .h6 {
+    margin: 5px 0 0;
+    font-size: 12px;
+}
+
+.chart {
+    height: 64px;
+}
+
+.indicators {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.indicators > li {
+    height: 40px;
+    padding: 8px;
+}
+
+.indicators > li:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.indicators > li:nth-child(odd) {
+    background-color: #2f3442;
+}
+
+.indicators .pull-right {
+    text-align: right;
+}
+
+.indicators .h3 {
+    margin: 2px 0 0;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.indicators .h4 {
+    margin: 0;
+    color: #595f6d;
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+}
+
+.indicators .h5 {
+    margin: 0;
+    color: #595f6d;
+    font-size: 13px;
+    line-height: 1;
+}
+
+.indicators .h6 {
+    opacity: 0.8;
+    margin: 3px 0 0;
+    font-size: 8px;
+    line-height: 1;
+}
+
+.footer {
+    opacity: 0.15;
+    padding: 12px 0;
+    font-size: 9px;
+    line-height: 1;
+    text-align: center;
+}
