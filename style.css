@@ -2,6 +2,8 @@ body {
     background-color: #272b37;
     color: #fff;
     font-family: 'Droid Sans', sans-serif;
+    min-width: 320px;
+    max-width: 320px;
 }
 
 .text-small {

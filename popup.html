@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bitcoin Ticker</title>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="bower_components/highcharts/highstock.js"></script>
+    <script src="bower_components/highcharts/modules/exporting.js"></script>
+    <script src="popup.js"></script>
+</head>
+<body>
+
+<div class="app">
+    <div class="header code text-center">
+        <div class="h1"><span class="text-small">$</span>1,258.00</div>
+        <div class="h6 drop">-7.47 (1.49%)</div>
+    </div>
+
+    <div id="chart" class="chart"></div>
+
+    <ul class="indicators">
+        <li>
+            <div class="pull-right code">
+                <div class="h5">$1,267.33</div>
+                <div class="h6 drop">-5.09 (1.15%)</div>
+            </div>
+            <div class="h4">Bitfinex</div>
+            <div class="h3">BTCUSD</div>
+        </li>
+        <li>
+            <div class="pull-right code">
+                <div class="h5">$1,284.01</div>
+                <div class="h6 growth">+1.33 (0.09%)</div>
+            </div>
+            <div class="h4">BitMEX</div>
+            <div class="h3">XBTUSD</div>
+        </li>
+        <li>
+            <div class="pull-right code">
+                <div class="h5">$1,294.99</div>
+                <div class="h6 growth">+2.56 (0.88%)</div>
+            </div>
+            <div class="h4">BitMEX</div>
+            <div class="h3">XBTH17</div>
+        </li>
+        <li>
+            <div class="pull-right code">
+                <div class="h5">$1,269.44</div>
+                <div class="h6 drop">-2.29 (1.09%)</div>
+            </div>
+            <div class="h4">OKCoin</div>
+            <div class="h3">BTC Spot</div>
+        </li>
+        <li>
+            <div class="pull-right code">
+                <div class="h5">UAH 26,450.00</div>
+                <div class="h6">USD 1.8%</div>
+            </div>
+            <div class="h4">Vilkov</div>
+            <div class="h3">Fiat</div>
+        </li>
+    </ul>
+
+    <div class="footer">2017 &copy; Price indexes are updating once in a 5 minutes</div>
+</div>
+
+</body>
+</html>
